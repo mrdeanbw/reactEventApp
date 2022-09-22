@@ -1,0 +1,128 @@
+body {
+  background-color: #E5E5E5 !important;
+}
+
+.title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #240D57;
+}
+
+.description {
+  color: #828282;
+}
+.description .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon-background {
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.bg-purple {
+  background-color: #8456EC !important;
+}
+.invite-btn {
+  width: 100px !important;
+  margin: 0px 10px
+}
+.d-row {
+  display: flex;
+}
+.card-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.text-color-gray {
+  color: #4F4F4F;
+}
+
+.v-100 {
+  height: 100vh;
+}
+.gradient-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: right;
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.description-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4F4F4F;
+}
+.bg-light-gray {
+  background-color: #EFEFEFEF;
+}
+
+.card-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 20px;
+  color: #240D57;
+}
+.card-row-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.card-row-description {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.color-purple {
+  color: #240D57;
+}
+.color-dark {
+  color: #4F4F4F;
+}
+.color-light-gray {
+  color: #BDBDBD
+}
+.color-light-purple {
+  color: #8456EC;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.create-event-btn {
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+}
+
+.flex-coloum-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.page-container label {
+  color: #240D57;
+}
