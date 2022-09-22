@@ -2,26 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import HeaderImg from "../assets/images/HeaderImg.png"
 import EventImg from "../assets/images/Event_image.png"
-import Button from 'react-bootstrap/Button';
-import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
+import { FaCalendarAlt } from 'react-icons/fa';
 import {IoLocationOutline} from 'react-icons/io5'
 import { useMediaQuery } from 'react-responsive';
 import DetailRow from "../components/DetailRow";
 
-const DescriptionTitle = () => {
-  const isDesktop = useMediaQuery({query: '(min-width: 1224px)'})
-  const textAlign = isDesktop? 'text-right' : 'text-center';
-  return (
-    <div>
-      <div className={`title ${textAlign} w-100`}>Imagine if</div>
-      <div className={`title ${textAlign} w-100 gradient-text`}>Snapchat</div>
-      <div className={`title ${textAlign} w-100`}>had events.</div>
-      <div className={`text-color-gray description-text ${textAlign} mb-4`}>Easily host and share events with your friends across any social media.</div>
-    </div>
-  )
-}
 const Event = () => {
   const isDesktop = useMediaQuery({query: '(min-width: 1224px)'})
   const isTablet = useMediaQuery({ query: '(max-width: 1224px) and (min-width: 640px)' })

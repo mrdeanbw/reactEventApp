@@ -4,32 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import HeaderImg from "../assets/images/HeaderImg.png"
 import Button from 'react-bootstrap/Button';
-import { FaCalendarAlt, FaChevronRight, FaLink } from 'react-icons/fa';
+import { FaCalendarAlt, FaLink } from 'react-icons/fa';
 import {IoLocationOutline} from 'react-icons/io5'
 import { useMediaQuery } from 'react-responsive';
-
 import DetailRow from "../components/DetailRow";
-
-// const DetailRow = ({title, description, onNavigate}) => {
-//   return (
-//     <Row className='justify-content-between align-items-center mt-3 mb-3'>
-//       <Col xs={2}>
-//         <div className='icon-background'>
-//           <FaCalendarAlt color='#8456EC' size={30}/>
-//         </div>
-//       </Col>
-//       <Col xs={9}>
-//         <div className=''>
-//           <div className='card-row-title color-purple'>{title}</div>
-//           <div className='card-row-description color-dark'>{description}</div>
-//         </div>
-//       </Col>
-//       <Col xs={1}>
-//         <FaChevronRight onClick={onNavigate} color='color-dark' />
-//       </Col>
-//     </Row>
-//   )
-// }
 
 const DescriptionTitle = () => {
   const isDesktop = useMediaQuery({query: '(min-width: 1224px)'})
